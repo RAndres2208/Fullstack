@@ -16,7 +16,28 @@ class Calculadora{
     }
 }
  const calculadora = new Calculadora();
- 
+
+ class Calculadora2{
+    multiplicacion(n1, n2){
+        return n1 * n2;
+    }
+}
+ const calculadora2 = new Calculadora2();
+
+ class Calculadora3{
+    resta(n1, n2){
+        return n1 - n2;
+    }
+}
+ const calculadora3 = new Calculadora3();
+
+ class Calculadora4{
+    division(n1, n2){
+        return n1 / n2;
+    }
+}
+ const calculadora4 = new Calculadora4();
+
 miBoton.addEventListener("click",function () {
 
 const valorMiSelector = miSelector.value;
